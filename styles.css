@@ -285,7 +285,6 @@ aside
 
 .asideheberge a
 {
-    position: relative;
     justify-content: space-between;
     margin-left:30px;
     margin-bottom: 30px;
@@ -300,7 +299,6 @@ aside
 
 .aside-description
 {
-    position: absolute;
     font-size: small;
     background-color: white;
     padding-left: 9px;
