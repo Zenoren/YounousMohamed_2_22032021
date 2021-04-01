@@ -4,6 +4,11 @@
     src: url('police/Raleway-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'Raleway1';
+    src: url('police/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body
@@ -37,19 +42,26 @@ nav a
     font-size: 1em;
     text-decoration:none;
     color: black;
+    font-family: "Raleway1", arial, sans-serif;
+}
+
+#blueref a
+{
+    color: #0065FC;
+    font-family: "Raleway", arial, sans-serif;
 }
 
 nav a:hover
 {
     border-top: 2px solid;
     padding: 22px 22px 22px;
-    color: #0065FC;
+    color:#0065FC;
 }
 
-nav a:visited
+/* nav a:visited
 {
-color:#0065FC;
-}
+
+} */
 
     /* Barre de recherche */
 
