@@ -10,18 +10,23 @@
     font-weight: normal;
     font-style: normal;
 }
+html
+{
+width: 100%;
+}
 
 body
 {
-font-family: 'Raleway', arial, sans-serif;
-width: fit-content;
+    font-family: 'Raleway', arial, sans-serif;
+    width: 97%;
+    margin: auto;
 }
 
 header
 {
-list-style-type: none;
-display: flex;
-justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
     /* Navigation */
@@ -57,13 +62,6 @@ nav a:hover
     padding: 22px 22px 22px;
     color:#0065FC;
 }
-
-/* nav a:visited
-{
-
-} */
-
-    /* Barre de recherche */
 
 #recherche_ville
 {
@@ -120,7 +118,7 @@ nav a:hover
 
 #listfiltres i
 {
-color: blue;
+color: #0065FC;
 margin-left: 1%;
 margin-top: -12px;
 border: 1px none;
@@ -154,7 +152,7 @@ position:sticky;
 	border: 1px solid gray;
 	padding: 5px 10px;
 	border-radius: 50%;
-	color: blue;
+	color: #0065FC;
 }
 
     /* Bloc Principal */
@@ -185,9 +183,9 @@ section a
     color: black;
 }
 
-article
+#article1
 {
-    width: 100%;
+    width: 105%;
     height: 30%;
     background-color:#F2F2F2;
     border-width: 7px;
@@ -224,7 +222,7 @@ article
     font-size: 1em;
     bottom:0;
     background-color: white;
-    width: 97%;
+    width: 95%;
     line-height : 0px;
     padding-left: 13px;
     padding-bottom: 8px;
@@ -234,16 +232,17 @@ article
 
 .fas
 {
-    color: blue;
+    color: #0065FC;
 }
 
-#heberge .gray-star
+.gray-star
 {
-    color: gray;
+    color: gainsboro;
 }
 
+    /* Bloc de droite */
 
-aside
+#article2
 {
     width: 47%;
     background-color: #F2F2F2;
@@ -257,67 +256,81 @@ aside
 #populaire 
 {
 	display: flex;
-	justify-content: space-between;
 	align-items: baseline;
 	width: 100%;
     margin-top: -35px;
+    font-size: larger;
 }
 
 #populaire i
 {
     font-size:larger;
     color: black;
+    margin-left: 120px;
 }
 
-.asideheberge
+.article2-heberge
 {
     display: flex;
-	flex-direction: column;
-    gap: 10px;
+	flex-wrap: wrap;
+    gap:30px;
 }    
 
-.asideheberge img
+.article2-heberge img
 {
-    width: 100px;
-    height: 100px;
+    width: 146px;
+    height: 151px;
     object-fit: cover;
+    border: white solid;
+	border-radius: 15px 0 0 15px;
 }
 
-.asideheberge a
+.article2-heberge a
 {
-    justify-content: space-between;
-    margin-left:30px;
-    margin-bottom: 30px;
-    padding-bottom: 29px;
+    margin-left:25px;
+    margin-right: 25px;
     display: flex;
     background-color: white;
     border: white solid;
-	border-width: 7px;
+	border-width: 5px;
 	border-radius: 21px;
-    
+    width: 100%;
 }	
 
-.aside-description
+.article2-description
 {
-    font-size: small;
     background-color: white;
-    padding-left: 9px;
-    right:0;
-    width: 97%;
-    line-height : 0px;
+    padding-left: 15px;
+    width: 61%;
+    border-radius: 20px;
 }
 
-/* .aside-description {
-	position: absolute;
-	font-size: small;
-	background-color: white;
-	padding-left: 9px;
-	right: 0;
-	background-color: white;
-	width: 62%;
-	line-height: 0px;
-	border-width: 7px;
-	border-radius: 0px 0 21px 21px;
-	float: right;
-	height: 111px;
-} */
+        /* Aside */
+
+#article3
+{
+width: 100%;
+height: 100%;
+margin-top: 55px;
+}
+
+#bloc-images
+{
+    display: flex;
+    row-gap: 20px;
+}
+
+.img-high img 
+{
+	height: 227PX;
+	width: 160px;
+	object-fit: cover;
+}
+
+.img-double
+{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 100px;
+}
