@@ -335,6 +335,7 @@ margin-bottom: 55px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+    border-radius: 21px;
 }
 
 .img-double
@@ -351,6 +352,7 @@ margin-bottom: 55px;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 21px 21px 0 0;
 }
 
 #smaller-img
@@ -359,16 +361,10 @@ margin-bottom: 55px;
     width: 21vw;
 }
 
-#bloc-images img
-{
-border-radius: 21px 21px 0 0;
-}
-
 .article3-description 
 {
 	background-color: white;
 	width: 100%;
-	border-width: 7px;
 	border-radius: 0 0 21px 21px;
 	position: sticky;
 	padding-bottom: 25px;
