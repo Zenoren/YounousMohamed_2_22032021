@@ -516,6 +516,11 @@ section
     height: 241px;
 }
 
+.img-high img
+{
+    height: 241px;
+}
+
 footer
 {
     margin: 0;
@@ -535,6 +540,4 @@ footer ul
     line-height: 0;
 }
 
-
 }
-
