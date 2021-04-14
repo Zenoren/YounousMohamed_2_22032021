@@ -62,7 +62,6 @@ nav a:hover
     height: 39px;
     list-style-type: none;
     display: flex;
-    flex:inline; 
     font-weight: bold;
     padding-left: 9px;
 }
