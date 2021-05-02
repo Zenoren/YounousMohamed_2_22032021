@@ -477,15 +477,49 @@ footer h3
 
     /* Media Query */
 
-@media screen and (min-width: 1025px) and (max-width: 1200px)
+@media screen and (min-width: 1023px) and (max-width: 1502px)
 {
-/* body
+#article1 #heberge a
 {
-} */
-
+    width: 27%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px)
+#heberge img, #heberge .photo-description
+{
+    width: 100%;
+    white-space: nowrap;
+	font-size: 1.2vw;
+}
+
+.article2-heberge img
+{
+    width:50%;
+    height: 97%;
+}
+#article2
+{
+    margin-left: 34px;
+    margin-right: 26px;
+}
+
+.article2-description, .article2-description h4
+{
+    line-height: 1em;
+    margin-top: 5px;
+}
+
+.article2-heberge a
+{
+    height: 175px;
+}
+
+.article3-description b
+{
+    margin:0;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
 {
 body
 {
@@ -543,6 +577,16 @@ nav a:hover
     border-width: 7px;
     border-radius: 21px;
     margin-top: 30px;
+}
+
+#article1 #heberge a
+{
+    width: 40%;
+}
+
+#heberge img, #heberge .photo-description
+{
+    width: 100%;
 }
 
 .article2-heberge img
